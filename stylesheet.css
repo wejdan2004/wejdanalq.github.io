@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("IMG_0936.PNG");
+    background-position: top right;
+}
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ol ol{
+    list-style-type: lower-roman;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: blue;
+}
+a:visited
+{
+    text-decoration: none;
+    color: red; 
+}
+a:active
+{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover
+{
+    text-decoration: underline;
+    color: green;
+}
+.dclass{
+font-family:'Courier New', Courier, monospace;
+color: aqua;
+font-size: medium;
+
+
+
+}
+.fclass{
+color: blue;
+font-size: small;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
